@@ -51,6 +51,6 @@ app.use((err, req, res, next) => {
     });
 });
 
-app.listen(3000,()=>{
-    console.log("Server is running  on port on 3000");
+app.listen(5173,()=>{
+    console.log("Server is running  on port on 5173");
 })
