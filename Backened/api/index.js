@@ -20,7 +20,7 @@ mongoose.connect(process.env.MONGO).then(()=>{
 
 app.use(cookieParser());
 app.use(cors({
-    origin: 'http://localhost:5173',
+    origin: 'http://3.8.198.166:5173',
     credentials: true, // (Optional, if using cookies/auth)
 }));
 
